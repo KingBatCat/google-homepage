@@ -1,5 +1,5 @@
 #logo {
-  margin-left: 21%;
+  margin-left: 38%;
   margin-top: 15%;
   margin-bottom: 1%;
 }
@@ -36,16 +36,15 @@ ul {
 
 li {
     display: inline;
-    float: left;
     padding: 8px;
     font-size: 12px;
     font-family: arial, sans-serif;
 }
 
 .right_menu {
-    position: relative;
-    left: 78%;
-    top: 10px;    
+    position: absolute;
+    left: 81%;
+    top: 17px;   
 }
 
 .left_menu {
@@ -53,10 +52,32 @@ li {
     top: 10px;
     left: 5px;
 }
-
-#icon {
+.bottom_left_menu {
     position: relative;
-    bottom: 11px;
+    bottom: 3px;
+    left: 5px;
+    font-size: 12px;
+    
+}
+.bottom_right_menu {
+    position: absolute;
+  bottom: -1px;
+  right: 16px;
+  font-size: 12px;
+  
+}
+#icon {
+    position: absolute;
+    bottom: -4px;
     border-radius: 20px;
-    left: 19px;
+    left: 158px;
+}
+.footer {
+    background-color: #f3f9f7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    padding-top: 10px;
+   
 }
