@@ -4,7 +4,7 @@
   margin-bottom: 1%;
 }
 
-input {
+#bar {
   margin-left: 40%;
   width: 39%;
   position: relative;
@@ -20,11 +20,11 @@ input {
   border-width: 2px;
 }
 
-input:hover {
+#bar:hover {
     box-shadow: .5px .5px .5px .5px #dfdcdc;
 }
 
-input:focus {
+#bar:focus {
     box-shadow: .5px .5px .5px .5px #dfdcdc;
 }
 
@@ -61,8 +61,8 @@ li {
 }
 .bottom_right_menu {
     position: absolute;
-  bottom: -1px;
-  right: 16px;
+  bottom: 5px;
+  right: 23px;
   font-size: 12px;
   
 }
@@ -80,4 +80,16 @@ li {
     left: 0px;
     padding-top: 10px;
    
+}
+
+#search {
+    position: relative;
+    top: 50px;
+    right: 45%
+}
+
+#lucky {
+    position: relative;
+    top: 14px;
+    left: 582px;
 }
