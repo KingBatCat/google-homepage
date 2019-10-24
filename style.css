@@ -56,14 +56,17 @@ li {
     position: relative;
     bottom: 3px;
     left: 5px;
-    font-size: 12px;
+    font-size: 11px;
+    color:grey;
+    font-family: arial, sans-serif;
     
 }
 .bottom_right_menu {
     position: absolute;
-  bottom: 5px;
-  right: 23px;
-  font-size: 12px;
+  bottom: 8px;
+  right: 28px;
+  font-size: 11px;
+  color: gray;
   
 }
 #icon {
@@ -84,12 +87,36 @@ li {
 
 #search {
     position: relative;
-    top: 50px;
-    right: 45%
+    top: 70px;
+    right: 45%;
+    color: grey;
+    border-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f6f64f;
+    padding: 7px 8px;
+    
+
 }
 
 #lucky {
     position: relative;
-    top: 14px;
+    top: 32px;
     left: 582px;
+    color: grey;
+    border-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f6f64f;
+    padding: 7px 8px;
+}
+
+#search:hover {
+    color: black;
+    border-color: lightgrey;
+}
+
+#lucky:hover {
+    color: black;
+    border-color: lightgrey;
 }
